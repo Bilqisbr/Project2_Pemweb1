@@ -1,0 +1,128 @@
+body{
+    background-image:url(img/bg2.jpg);
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 300px;            
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.nav button{
+    height: 50px;
+    font-size: medium;
+    background-color: rgb(57, 57, 235);
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.logo1 img{
+    width: 6rem;
+    margin-left: 5rem;
+    font-size: larger;
+}
+.nav a{
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+   
+}
+
+.judul h2{
+    padding: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.welcome {
+    margin-top: 7rem;
+    margin-left: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.welcome h1{
+    color: steelblue;
+    
+}
+
+.welcome h4{
+    font-weight: 300;
+    text-decoration-line: none;
+}
+
+.daftar {
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color: white;
+}
+.daftar span{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.daftar button{
+    width: 250px;
+    background-color: rgb(57, 57, 235);
+    
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-header {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+  }
+  .section-header p {
+    margin: 150px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+  }
+  
+  header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .login{
+    padding: 3rem;
+    margin-left: 35rem;
+  }
+
+  form{
+    margin-top: 1% ;
+    margin-left: 400px;
+  }
+
+  form input{
+    width: 400px;
+    margin-left: 2%;
+
+  }
+
+  #loginForm button{
+    width: 400px;
+    margin-left: 10% ;
+  }
+
+  

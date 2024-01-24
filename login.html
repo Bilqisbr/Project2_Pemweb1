@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SIPAK STT-NF</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <link  href="img/logo.png" rel="icon">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="Logo">
+                <div class="logo1">
+                    <img  src="img/logo.png" alt=""> 
+                </div>
+            </div>
+            <div class="judul">
+                <h2><i>SIPAK STT-NF </i></h2>
+            </div>
+            <div class="nav">
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scrollto" href="#berita">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registrasi_kendaraan.html">Registrasi Kendaraan</a>
+                </li>
+            </ul>
+            <div>
+              <button>
+                <a style="color: white;" href="login.html">Login</a>
+              </button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login">
+        <h1>Login Page</h1>
+    </div>
+    <div>
+        <form id="loginForm">
+            <fieldset>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="password">Password :</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <br>
+                <button type="button" onclick="Login()">Sign In</button>
+                <br>
+                <br>
+                <a href="registrasi_user.html" type="button" class="btn btn-link btn-block" style="text-align: left;">Belum punya Akun? Registrasi Disini!</a>
+
+            </fieldset>
+        </form>
+    </div>
+
+<script>
+    function Login() {
+        var Username = "Informatika";
+        var Password = "123123";
+    
+        var InputUsername = document.getElementById("username").value;
+        var InputPassword = document.getElementById("password").value;
+    
+        if (InputUsername === Username && InputPassword === Password) {
+          alert;window.location.href = "dashboard.html";
+        } else {
+          alert("Login Gagal. Silakan coba lagi.");
+        }
+      }
+</script>
+</body>
+</html>
